@@ -17,7 +17,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h2 class="panel-title">
-                        <xsl:value-of select="@name" /> - Version <xsl:value-of select="@version" />
+                        <xsl:value-of select="@name" /> - Version: <xsl:value-of select="@version" />
                     </h2>
                 </div>
                 <div class="panel-body">
