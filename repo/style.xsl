@@ -11,13 +11,13 @@
 <body>
     <div class="container" style="max-width : 500px">
         <div class="page-header" style="color : #0070B8">
-            <h1>QGIS Plugin Repository <small>Geoinformatik Büro Dassau</small></h1>
+            <h1>QGIS Plugin Repository <small>Geoinformatikbüro Dassau GmbH</small></h1>
         </div>
         <xsl:for-each select="/plugins/pyqgis_plugin">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h2 class="panel-title">
-                        <xsl:value-of select="@name" /> - <xsl:value-of select="@version" />
+                        <xsl:value-of select="@name" /> - Version <xsl:value-of select="@version" />
                     </h2>
                 </div>
                 <div class="panel-body">
